@@ -20,25 +20,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-link" >
-                        <a href="#" class="fw-bold">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                    <li class="nav-item  " >
+                        <a href="#sobre-o-atelie" class="fw-bold nav-link">
                             <i class="bi bi-scissors me-1"></i>
                             Sobre meu ateliê</a>
                     </li>
-                    <li class="nav-link">
-                        <a href="#" class="fw-bold">
+                    <li class="nav-item">
+                        <a href="#nossos-produtos" class="fw-bold nav-link">
                             <i class="bi bi-shop me-1"></i>
                             Nossos produtos</a>
                     </li>
-                    <li class="nav-link">
-                        <i class="bi bi-chat-dots me-1"></i>
-                        <a href="#" class="fw-bold">Fale conosco</a>
+                    <li class="nav-item">
+                        <a href="#contato" class="fw-bold nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            Fale conosco</a>
                     </li>
                 </ul>
             </nav>    
         </div>
     </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
     <section id="sobre-o-atelie">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
             <div class="carousel-inner">
@@ -65,16 +67,230 @@
                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
             </div>
         </div>
-        <div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <img class="d-block w-100" src="imagens/The Absolute BEST IKEA Craft Room Ideas - the Original!.jpg" alt="Foto de um ateliê de costura">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="imagens/The Absolute BEST IKEA Craft Room Ideas - the Original!.jpg" alt="Foto de um ateliê de costura">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0 sobre-o-atelie">
+                            <h2 class="title-text fw-bold">Sobre <sapn class="text-colored">o ateliê</sapn></h2>
+                            
+                            <p>Meu ateliê é um espaço aconchegante e inspirador, onde posso dar vazão à minha criatividade e produzir peças únicas de artesanato. As paredes são pintadas em tons pastéis, criando uma atmosfera suave e relaxante. Há prateleiras cheias de tecidos.</p>
+                            <h2 class="title-text fw-bold">Sobre meus <span class="text-colored">artesanatos</span> </h2>
+    
+                            <p>Eu fico muito feliz em poder compartilhar com vocês o meu amor pelo artesanato e pelas criações únicas que eu faço. Cada peça que eu produzo é feita com muito carinho, cuidado e dedicação, buscando sempre a excelência em cada detalhe. Eu gosto de experimentar diferentes materiais e técnicas, desde tecidos, papéis, tintas, entre outros, o que permite que cada peça seja única e especial.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="todas-ocasioes" id="todas-ocasioes">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center title-text">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagens/amigurumi.jpg" alt="">
+                        <h5 class="text-colored fw-bold title-text">
+                            <i class="bi bi-gift-fill"></i>
+                            Presentes</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque non ad possimus porro perferendis tempore officia dolor sit voluptatum soluta.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagens/jogo de banheiro.jpg" alt="">
+                        <h5 class="text-colored fw-bold title-text">
+                            <i class="bi bi-house-door-fill"></i>
+                            Decoroção </h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque non ad possimus porro perferendis tempore officia dolor sit voluptatum soluta.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagens/bolsa.jpg" alt="">
+                        <h5 class=" text-colored fw-bold title-text">
+                            <i class="bi bi-bag-heart-fill"></i>
+                            Acessórios </h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque non ad possimus porro perferendis tempore officia dolor sit voluptatum soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-text text-center fw-bold">Nossos <span class="text-colored"> produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-catalogo">
+                            <button type="button" class="nav-link text-colored fw-bold text-start active" data-bs-toggle="tab" data-bs-target="#bolsas">Bolsas</button>
+                            <button type="button" class="nav-link text-colored fw-bold text-start" data-bs-toggle="tab" data-bs-target="#bichinhos">Bichinhos de amigurumi</button>
+                            <button type="button" class="nav-link text-colored fw-bold text-start" data-bs-toggle="tab" data-bs-target="#jogo-de-banheiro">Jogos de banheiro</button>
+                            <button type="button" class="nav-link text-colored fw-bold text-start" data-bs-toggle="tab" data-bs-target="#roupas">roupas de crochê</button>
+                        </nav>
+    
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bolsas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bolsa.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bolsa1.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bolsa2.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bolsa3.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bolsa4.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!--Bichinhos amigurumi-->
+                            <div class="tab-pane" id="bichinhos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/amigurumi.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/amigurumi1.jpg" alt="">
+                                        <h5 class="text-colored"></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/amigurumi2.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/amigurumi3.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogo-de-banheiro">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/tapete.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/tapete1.jpg" alt="">
+                                        <h5 class="text-colored"></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/tapete2.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="roupas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/roupa.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/roupa1.jpg" alt="">
+                                        <h5 class="text-colored"></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/tapete2.jpg" alt="">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-text text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5 mt-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone: (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea name="mensgem" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-5">
+                        <div class="row">
+                            <h3 class=" fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p> AV. Paulista - Nº1001 São Paulo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
-    </section>
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

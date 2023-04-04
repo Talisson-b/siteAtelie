@@ -16,10 +16,73 @@ body {
     color: white;
 }
 
-.bi-chat-dots{
+#menu-navegacao .nav-link.active {
+    background-color: #fff;
+    color: #9A208C;
+}
+
+#menu-navegacao .nav-link i.active {
+    color: #9A208C;
+}
+
+#menu-navegacao .nav-link {
     color: #fff;
 }
 
+
+
 .navbar-toggler{
     background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #9A208C;
+}
+
+.title-text {
+    font-family: 'Dancing Script', cursive;
+}
+
+.sobre-o-atelie h2 {
+    font-size: 36px;
+    padding: 8px;
+}
+
+.sobre-o-atelie p {
+    font-size: 14px;
+    padding: 8px;
+}
+
+#sobre-o-atelie, #nossos-produtos {
+    background-color:#f1ccead7 ;
+}
+
+.todas-ocasioes h5 {
+    font-size: 36px;
+    margin-top: 8px;
+}
+
+
+.todas-ocasioes h2, #nossos-produtos h2, #contato h2{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #9A208C;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-catalogo button:hover {
+    color: #9A208C;
+}
+
+form .btn {
+    background-color: #9A208C;
+    color: white;
 }
